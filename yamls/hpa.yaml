@@ -1,7 +1,7 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: nginx-cpu-hpa
+  name: alpine-cpu-hpa
   namespace: ic-ws-018
 spec:
   scaleTargetRef:
